@@ -17,11 +17,12 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.append("source")
 
+
 # -- Project information -----------------------------------------------------
 
 project = 'Alltoo Shop'
-copyright = '2022, Alexandre Zouzowsky'
-author = 'Alexandre Zouzowsky'
+copyright = '2022, ALexandre Zouzowsky'
+author = 'ALexandre Zouzowsky'
 
 # The short X.Y version
 version = '0.1'
@@ -73,7 +74,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
@@ -84,7 +85,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -139,7 +140,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'AlltooShop.tex', 'Alltoo Shop Documentation',
-     'Alexandre Zouzowsky', 'manual'),
+     'ALexandre Zouzowsky', 'manual'),
 ]
 
 
